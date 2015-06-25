@@ -7,14 +7,18 @@ title: Spare Worker
     <div class="col col--4 col--is-highlighted">
       <h1>SpareWorker :<br>Saison n°1</h1>
       <p class='intro-description'>Spare Worker c’est bla bla bal Spare Worker c’est bla bla bal Spare Worker c’est bla bla bal Spare Worker. C’est bla bla bal Spare.</p>
-      <div class="btn btn-success">Participer</div>
+      <a href="mailto:contact@unicorn.com" class="btn btn-success">Participer</a>
+      <div class="logo-bg">
+        <%= image_tag 'bg.svg' %>
+      </div>
     </div>
     <div class="col col--8 col--is-highlighted">
       <h2>Les SpareWorkers</h2>
       <div class="media-list">
         <div class="media">
-          <div class="media-left pull-left">
-            <img src="/img/luc.png">
+          <div class="avatar media-left pull-left">
+            <div class="avatar-shadow"></div>
+            <%= image_tag 'luc.png' %>
           </div>
           <div class="media-body">
             <div class="bold">Luc Chaissac</div>
@@ -22,8 +26,9 @@ title: Spare Worker
           </div>
         </div>
         <div class="media">
-          <div class="media-left pull-left">
-            <img src="/img/pierre.png">
+          <div class="avatar media-left pull-left">
+            <div class="avatar-shadow"></div>
+            <%= image_tag 'pierre.png' %>
           </div>
           <div class="media-body">
             <div class="bold">Pierre Renaudin</div>
@@ -31,12 +36,13 @@ title: Spare Worker
           </div>
         </div>
         <div class="media">
-          <div class="media-left pull-left">
-            <img src="/img/unicorn.png">
+          <div class="avatar media-left pull-left">
+            <div class="avatar-shadow"></div>
+            <%= image_tag 'unicorn.png' %>
           </div>
           <div class="media-body">
             <div class="bold">Toi?</div>
-            <p>Drop nous un email</p>
+            <p>Drop nous un email :)</p>
           </div>
         </div>
       </div>
